@@ -1,0 +1,23 @@
+1. basic.go
+   - Menunjukkan cara mengambil waktu sekarang, memformat waktu, dan mem-parse string menjadi waktu.
+
+2. duration.go
+   - Menjelaskan tentang penggunaan time.Duration untuk merepresentasikan durasi waktu.
+
+3. sleep.go
+   - Contoh sederhana penggunaan time.Sleep untuk menunda eksekusi.
+
+4. time_diff.go
+   - Menunjukkan cara menghitung selisih antara dua waktu menggunakan .Sub().
+
+5. formatting.go
+   - Menjelaskan format layout Go dan cara parsing string ke waktu.
+
+6. ticker.go
+   - Menunjukkan bagaimana menggunakan time.Ticker untuk menjalankan proses berkala.
+
+7. timer.go
+   - Menunjukkan cara menggunakan time.Timer untuk menunda eksekusi hingga waktu tertentu.
+
+8. run_all.go
+   - Fungsi gabungan untuk menjalankan semua contoh sekaligus.

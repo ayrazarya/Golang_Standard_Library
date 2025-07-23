@@ -1,0 +1,14 @@
+# Penjelasan package_path
+
+Package ini berisi contoh penggunaan fungsi-fungsi utama dari package path di Go:
+
+- Base(path string): Mengembalikan elemen terakhir dari path (mirip basename).
+- Dir(path string): Mengembalikan semua kecuali elemen terakhir (mirip dirname).
+- Ext(path string): Mengembalikan ekstensi dari path (termasuk titik).
+- Join(elem ...string): Menggabungkan elemen path menjadi satu path yang bersih.
+- Clean(path string): Membersihkan path, menghapus .., . dan slash berlebih.
+- Split(path string) (dir, file string): Memisahkan direktori dan file.
+- IsAbs(path string): Mengecek apakah path itu absolut.
+- Match(pattern, name string): Mencocokkan pola dan nama file.
+
+Setiap fungsi didemokan dengan contoh kode dan output. Cocok untuk belajar manipulasi path di Go.

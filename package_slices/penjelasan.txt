@@ -1,0 +1,12 @@
+# Penjelasan package_slices
+
+Package ini berisi contoh penggunaan berbagai fungsi pada package slices di Go:
+
+- basics.go: Contains, Index, Equal
+- sort.go: Sort, IsSorted, BinarySearch
+- clone_and_compact.go: Clone, Compact
+- insert_and_delete.go: Insert, Delete
+- reverse_and_replace.go: Reverse, Replace
+- run_all.go: untuk menjalankan semua demo sekaligus
+
+Setiap file berisi fungsi demo sesuai kegunaannya. Sangat cocok untuk belajar manipulasi slice modern di Go.

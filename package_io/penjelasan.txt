@@ -1,0 +1,12 @@
+# Penjelasan package_io
+
+Package ini berisi contoh penggunaan IO dan manipulasi file di Go:
+
+- buffio.go: Penggunaan bufio (Reader, Writer, Scanner, ReadString, ReadLine, dll)
+- file_read.go: Membaca file dengan berbagai cara
+- file_write.go: Menulis file dengan berbagai cara
+- file_info.go: Mendapatkan info file (Stat, IsNotExist, dll)
+- file_manip.go: Manipulasi file (Rename, Remove, Mkdir, dsb)
+- run_all.go: Menjalankan semua demo sekaligus
+
+Setiap file berisi fungsi demo sesuai kegunaannya. Cocok untuk belajar IO dan file di Go.

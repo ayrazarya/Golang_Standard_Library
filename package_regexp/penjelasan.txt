@@ -1,0 +1,13 @@
+# Penjelasan Lengkap package_regexp
+
+Package ini berisi kumpulan contoh dan penjelasan lengkap tentang penggunaan package regexp di Go. Semua fungsi penting dari regexp didemokan secara terpisah pada file-file berikut:
+
+- compile.go: Cara compile regex (Compile, MustCompile, CompilePOSIX, MustCompilePOSIX) dan reuse objek regex.
+- match.go: Cara mencocokkan string dengan regex (Match, MatchString, MatchReader).
+- find.go: Cara mencari substring yang cocok (Find, FindAll, FindIndex, FindAllIndex, FindString, FindAllString, FindStringIndex, FindAllStringIndex).
+- submatch.go: Cara mengambil submatch (FindSubmatch, FindAllSubmatch, dst).
+- replace.go: Cara mengganti string berdasarkan regex (ReplaceAll, ReplaceAllString, ReplaceAllFunc, ReplaceAllStringFunc).
+- split.go: Cara memecah string berdasarkan regex (Split).
+- run_all.go: Untuk menjalankan semua demo sekaligus.
+
+Setiap file berisi beberapa fungsi dengan contoh kode dan output yang relevan. Package ini cocok untuk belajar dan referensi penggunaan regexp pada Go.

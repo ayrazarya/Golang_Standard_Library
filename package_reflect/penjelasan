@@ -1,0 +1,24 @@
+package_reflex - Demonstrasi fitur reflect di Go
+
+1. basic.go:
+   - Menunjukkan cara mengambil nilai dan tipe dari variabel menggunakan reflect.ValueOf
+
+2. type_check.go:
+   - Cara memeriksa tipe data runtime dari variabel interface{}
+
+3. value_access.go:
+   - Mengakses dan mengubah nilai variabel melalui reflect (harus menggunakan pointer)
+
+4. struct_info.go:
+   - Mengakses informasi field dari struct (nama, tipe)
+
+5. method_call.go:
+   - Memanggil method menggunakan reflect
+
+6. pointer.go:
+   - Menunjukkan pentingnya pointer agar nilai bisa diubah via reflect
+
+7. run_all.go:
+   - Menjalankan semua demo di atas
+
+Setiap file mewakili konsep penting dalam package reflect yang sering digunakan dalam pembuatan library, framework, ORM, dan introspeksi struktur data.

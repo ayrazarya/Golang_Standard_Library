@@ -1,0 +1,12 @@
+# Penjelasan package_encoding
+
+Package ini berisi kumpulan contoh encoding dan decoding berbagai format data di Go:
+
+- base64.go: encoding dan decoding base64
+- json.go: encoding dan decoding JSON
+- xml.go: encoding dan decoding XML
+- gob.go: encoding dan decoding menggunakan gob
+- csv.go: parsing dan encoding CSV
+- run_all.go: untuk menjalankan semua demo sekaligus
+
+Setiap file berisi fungsi demo encode dan decode sesuai formatnya. Sangat cocok untuk belajar serialisasi data di Go.

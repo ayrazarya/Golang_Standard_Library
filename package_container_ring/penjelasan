@@ -1,0 +1,10 @@
+Package container_ring menjelaskan penggunaan struktur data Ring pada Go.
+ Ring adalah linked list melingkar (circular list) dari package "container/ring".
+
+Ciri-ciri:
+ - Setiap elemen memiliki pointer ke Next dan Prev
+- Dapat bergerak maju/mundur menggunakan Move(n)
+- Dapat di-link dengan ring lain, atau di-unlink
+
+Sangat cocok digunakan untuk struktur data yang berulang, seperti round-robin, game turn, dsb.
+

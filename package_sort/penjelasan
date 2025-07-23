@@ -1,0 +1,4 @@
+Package sort memberikan contoh cara menggunakan fungsi-fungsi sorting di Go.
+Ini mencakup sorting slice bertipe int, float64, string, serta slice of struct
+menggunakan sort.Interface dan sort.Slice. Juga mencakup sorting terbalik dan custom.
+package sort
